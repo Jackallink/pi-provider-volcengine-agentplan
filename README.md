@@ -1,3 +1,12 @@
+# ⚠️ ARCHIVED (2026-10-20)
+
+**This repository is archived and no longer maintained.** The Volcengine Ark Agent Plan
+provider is now declared directly in pi's `~/.pi/agent/models.json`
+(`providers["volcengine-ark"]`, 12 models) — no extension/package needed, since the
+extension only contained static provider data. See `git log` for the final model set.
+
+---
+
 # pi-provider-volcengine-agentplan
 
 Pi extension that registers Volcengine Ark (火山方舟) **Agent Plan** models as a custom provider for [@earendil-works/pi-coding-agent](https://pi.dev).
